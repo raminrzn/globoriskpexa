@@ -1,0 +1,26 @@
+Package: globoriskpexa
+Title: Globorisk 10-Year CVD Risk (Laboratory and Office) - ModelsCloud Service
+Version: 0.1.0
+Authors@R: c(
+    person("Ramin", "Rezaeianzadeh", email = "raminrzn@student.ubc.ca",
+           role = c("aut", "cre")),
+    person("Christopher", "Boyer", role = "ctb",
+           comment = "Author of the globorisk R package, source of the calibration data"),
+    person("Goodarz", "Danaei", role = "ctb",
+           comment = "Senior author of Globorisk"))
+Description: Ten-year risk of fatal and non-fatal cardiovascular disease from
+    the 2017 laboratory-based and office-based Globorisk risk scores (Ueda et
+    al., Lancet Diabetes Endocrinol 2017 <doi:10.1016/S2213-8587(17)30015-3>),
+    recalibrated to 182 countries and baseline years 2000 to 2020. Coefficients
+    and country calibration data are taken from the authors' globorisk R
+    package (MIT licence, commit ea83370). The 2015 fatal-only model and the
+    Globorisk-LAC update are not included.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 3.5.0)
+Imports: jsonlite, utils
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/raminrzn/globoriskpexa
